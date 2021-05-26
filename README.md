@@ -1,27 +1,25 @@
 # README_generator
 
-**bold** Description: **bold**
+**Description:**
 
-Any decent project should have a README with the applications information readily available. 
-Examples of need information: 
-What is the purpose of this application?
-How to use it or install it, or report any issues.
-Possibly how to make contributions and what was used to create the application. 
-
+Any decent project should have a README with the applications information readily available.  
+Examples of need information:  
+What is the purpose of this application?  
+How to use it or install it, or report any issues.  
+Possibly how to make contributions and what was used to create the application.  
 This is a command-line application that runs with Node.js that dynamically generates a README.md file based on input about your project. Check out the ExampleREADME.md in this repo as an example.
 
-**bold** Installation: **bold**
+**Installation:**
 
 Steps required to install project and how to get the development environment running:
 
-To generate your own README, first run npm install in order to install the following npm package dependencies as specified in the package.json:
-
-inquirer that will prompt you for your inputs from the command line
-axios to fetch your info from the GitHub API
-The application itself can be invoked with node index.js.
+To generate your own README, first run npm install in order to install the following npm package dependencies as specified in the package.json:  
+After installation, the generator itself can be started with node index.js.  
+Then inquirer will begin to prompt you for your inputs from the command line
 
 
-**bold** Usage: **bold**
+
+**Usage:**
 
 Instructions and examples for use:
 
