@@ -28,7 +28,7 @@ Upon starting the node index.js, the generator uses the inquirer package to prom
 ![alt text](assets/images/screenshot.png)
 
 
-License
+**License:**  
 None
 
 
