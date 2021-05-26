@@ -1,8 +1,6 @@
-# Professional README Generator Starter Code
+# README_generator
 
-README_generator
-
-Description: 
+**bold** Description: **bold**
 
 Any decent project should have a README with the applications information readily available. 
 Examples of need information: 
@@ -12,7 +10,7 @@ Possibly how to make contributions and what was used to create the application.
 
 This is a command-line application that runs with Node.js that dynamically generates a README.md file based on input about your project. Check out the ExampleREADME.md in this repo as an example.
 
-Installation:
+**bold** Installation: **bold**
 
 Steps required to install project and how to get the development environment running:
 
@@ -23,7 +21,7 @@ axios to fetch your info from the GitHub API
 The application itself can be invoked with node index.js.
 
 
-Usage:
+**bold** Usage: **bold**
 
 Instructions and examples for use:
 
