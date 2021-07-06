@@ -1,11 +1,12 @@
 // TODO: Include packages needed for this application
 const inquirer = require("inquirer");
 const fs = require('fs');
-const util = require("util");
+const util = require("utils");
 const generatorMarkdown = require('./utils/generateMarkdown');
+const api = require('./utils/api.js');
 
 // TODO: Create an array of questions for user input
-const questions = [
+const questions = [ 
     {
         type: 'input',
         message: "Input your GitHub username.",
@@ -100,7 +101,7 @@ async function init() {
     
         // Pass Inquirer userResponses and GitHub userInfo to generateMarkdown
         console.log("Generating your README next...")
-        const markdown = generateMarkdown(userResponses, userInfo);
+        const markdown = generatorMarkdown(userResponses, userInfo);
         console.log(markdown);
     
         // Write markdown to file

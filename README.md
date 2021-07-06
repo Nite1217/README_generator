@@ -3,7 +3,7 @@
 **Description:**
 
 Any decent project should have a README with the applications information readily available.  
-Examples of need information:  
+Examples of needed information:  
 What is the purpose of this application?  
 How to use it or install it, or report any issues.  
 Possibly how to make contributions and what was used to create the application.  
