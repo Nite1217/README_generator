@@ -3,7 +3,6 @@ const inquirer = require("inquirer");
 const fs = require('fs');
 const util = require("utils");
 const generatorMarkdown = require('./utils/generateMarkdown');
-const api = require('./utils/api.js');
 
 // TODO: Create an array of questions for user input
 const questions = [ 
